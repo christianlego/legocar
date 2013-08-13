@@ -134,6 +134,7 @@ hyperindex=true }
 \maketitle
 
 \tableofcontents
+\newpage
 %----------------------------------------------------------------------------------------
 \section{Introduction}
 %----------------------------------------------------------------------------------------
@@ -150,7 +151,7 @@ hyperindex=true }
 The general architecture of our project is shown in Figure~\ref{figarchitecture}.
 The FPGA plays the central role:
 It controls the Servo/Motor-controller board and reads the sensor inputs.
-In future it can also be connected to a camera.
+In the future it can also be connected to a camera.
 Due to the limited time we could not implement the camera interface.
 The FPGA is also responsible for calculating the current speed based on the sensor inputs and for controlling the motor acceleration.
 
